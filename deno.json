@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/ssh2": "npm:@types/ssh2@^1.15.1",
+    "chalk": "npm:chalk@^5.4.0",
+    "ssh2": "npm:ssh2@^1.16.0"
+  }
+}
