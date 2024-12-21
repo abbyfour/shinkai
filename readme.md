@@ -1,4 +1,4 @@
-![shinkai logo](shinkai.png)
+<img src="shinkai.png" alt="shinkai logo" width="200"/>
 
 # Shinkai
 
