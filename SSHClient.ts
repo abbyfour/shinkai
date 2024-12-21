@@ -206,9 +206,7 @@ export class SSHClient {
 
   private compressLocalFolder(item: RemoteItem): Promise<void> {
     return new Promise<void>((resolve, reject) => {
-      const localPath = item
-        .quoted()
-        .pathInFolder(this.config.localWorkingDirectory);
+      const localPath = item.quoted().path();
 
       const localArchivePath = item
         .asArchive()
